@@ -1,0 +1,278 @@
+{
+  "dashboard": {
+    "addNewCrop": "Añadir Nuevo Cultivo",
+    "view_tasks": "Ver Tareas",
+    "crop_name": "Nombre del Cultivo",
+    "task": "Tarea",
+    "due_date": "Fecha Limite",
+    "actions": "Acciones",
+    "recommendatios": "Ultimas Recomendaciones",
+    "empty": "Aún no hay contenido",
+    "errors": {
+      "unauthenticated": "Usuario no autenticado",
+      "loadFailed": "Error cargando datos del dashboard"
+    },
+    "emptySections": {
+      "fields": "Aún no tienes campos registrados",
+      "tasks": "No hay tareas próximas",
+      "recommendations": "No hay recomendaciones por ahora"
+    },
+    "noviceRecommendations": {
+      "title": "Guía de Inicio",
+      "rec1": { "title": "Riego Básico", "content": "Riega tus plantas temprano en la mañana para evitar la evaporación y asegurar una absorción óptima." },
+      "rec2": { "title": "Identificación Visual", "content": "Aprende a reconocer hojas amarillas o marchitas como señales tempranas de problemas de riego o nutrientes." },
+      "rec3": { "title": "Calendario Simple", "content": "Lleva un registro básico de fechas de siembra y cosecha para planificar mejor tus actividades." }
+    },
+    "expertRecommendations": {
+      "title": "Consejos para Expertos",
+      "rec1": { "title": "Análisis de pH del Suelo", "content": "Realiza pruebas periódicas de pH y ajusta con enmiendas calcáreas o azufre según los requerimientos específicos de cada cultivo." },
+      "rec2": { "title": "Rotación de Cultivos Avanzada", "content": "Implementa un sistema de rotación cuatrienal que incluya leguminosas para fijar nitrógeno y mejorar la estructura del suelo." },
+      "rec3": { "title": "Manejo Integrado de Plagas", "content": "Utiliza trampas de feromonas y control biológico con enemigos naturales para reducir la dependencia de pesticidas químicos." }
+    }
+  },
+  "sidebar": {
+    "dashboard": "Panel de Control",
+    "manageCrops": "Gestionar Cultivos",
+    "myFields": "Mis Campos",
+    "myTasks": "Mis Tareas",
+    "community": "Comunidad",
+    "myLocation": "Mi ubicación",
+    "location": {
+      "loading": "Cargando...",
+      "anonymous": "Ubicación Anónima",
+      "unknown": "Ubicación desconocida"
+    }
+  },
+  "header": {
+    "profile": "Perfil",
+    "logout": "Cerrar Sesión"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "personalInfo": "Información personal",
+    "changePassword": "Cambiar contraseña",
+    "settings": "Ajustes",
+    "name": "Nombre",
+    "email": "E-mail",
+    "phoneNumber": "Número de teléfono",
+    "identityDocument": "Documento de identidad",
+    "role": "Rol de Agricultor",
+    "editInfo": "Editar información",
+    "saveChanges": "Guardar cambios",
+    "cancel": "Cancelar",
+    "currentPassword": "Contraseña actual",
+    "newPassword": "Nueva contraseña",
+    "confirmNewPassword": "Confirmar nueva contraseña",
+    "notifications": "Notificaciones",
+    "location": "Ubicación",
+    "logout": "Cerrar sesión",
+    "deleteAccount": "Eliminar cuenta",
+    "deleteConfirmHeader": "Confirmación de eliminación",
+    "deleteConfirmMessage": "¿Estás seguro de que quieres eliminar tu cuenta? Esta acción es irreversible.",
+    "deleteAccept": "Sí, eliminar",
+    "deleteReject": "No, cancelar"
+  },
+  "toast": {
+    "profileUpdated": "Perfil actualizado.",
+    "passwordChanged": "Contraseña cambiada.",
+    "logoutSuccess": "Has cerrado sesión exitosamente.",
+    "accountDeleted": "Cuenta eliminada.",
+    "errorProfileUpdate": "No se pudo actualizar el perfil.",
+    "errorPasswordChange": "No se pudo cambiar la contraseña.",
+    "errorDeleteAccount": "No se pudo eliminar la cuenta."
+  },
+  "errors": {
+    "nameLength": "El nombre debe tener al menos 3 caracteres.",
+    "phoneDigits": "El teléfono debe tener 9 dígitos.",
+    "documentDigits": "El documento debe tener 8 dígitos.",
+    "requiredCurrentPass": "La contraseña actual es requerida.",
+    "newPassLength": "La nueva contraseña debe tener al menos 8 caracteres.",
+    "passwordsDontMatch": "Las contraseñas no coinciden."
+  },
+  "manageCrops": {
+    "title": "Gestionar Cultivos",
+    "description": "Gestiona tus cultivos, añade nuevos registros y mantén un seguimiento del estado actual de tus plantaciones.",
+    "totalCrops": "Total Cultivos",
+    "healthy": "Saludables",
+    "attention": "Atención",
+    "critical": "Críticos",
+    "crop": "Cultivo",
+    "plantingDate": "Fecha de Siembra",
+    "harvestDate": "Fecha de Cosecha",
+    "field": "Campo",
+    "status": "Estado",
+    "days": "Días",
+    "actions": "Acciones",
+    "newCrop": "Nuevo Cultivo",
+    "editCrop": "Editar Cultivo",
+    "deleteCrop": "Eliminar Cultivo",
+    "confirmDelete": "Confirmar",
+    "confirmDeleteMessage": "¿Estás seguro de que quieres eliminar el cultivo",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "cropName": "Cultivo",
+    "cropNamePlaceholder": "Ej: Trigo, Maíz, Tomate...",
+    "plantingDatePlaceholder": "DD/MM",
+    "harvestDatePlaceholder": "DD/MM",
+    "fieldPlaceholder": "Nombre del campo",
+    "daysPlaceholder": "Ej: 31",
+    "selectStatus": "Seleccionar estado",
+    "statusHealthy": "Saludable",
+    "statusAttention": "Atención",
+    "statusCritical": "Crítico",
+    "loadingCrops": "Cargando cultivos...",
+    "retry": "Reintentar",
+    "cropCreated": "Cultivo creado correctamente",
+    "cropUpdated": "Cultivo actualizado correctamente",
+    "cropDeleted": "Cultivo eliminado correctamente",
+    "errorCreateCrop": "No se pudo crear el cultivo",
+    "errorUpdateCrop": "No se pudo actualizar el cultivo",
+    "errorDeleteCrop": "No se pudo eliminar el cultivo",
+    "errorLoadCrops": "No se pudieron cargar los cultivos",
+    "pagination": "Mostrando {first} a {last} de {totalRecords} cultivos",
+    "validation": {
+      "cropNameRequired": "El nombre del cultivo es requerido",
+      "plantingDateRequired": "La fecha de siembra es requerida",
+      "harvestDateRequired": "La fecha de cosecha es requerida",
+      "fieldRequired": "El campo es requerido",
+      "statusRequired": "El estado es requerido",
+      "daysRequired": "Los días son requeridos"
+    },
+    "tooltip": {
+      "edit": "Editar cultivo",
+      "delete": "Eliminar cultivo"
+    }
+  },
+  "registerCrop": {
+    "title": "Registrar un Cultivo",
+    "subtitle": "Agregar nuevo cultivo",
+    "cropInformation": "Información del cultivo",
+    "chooseField": "Elige tu campo",
+    "cropTypePlaceholder": "Tipo de cultivo / especie",
+    "plantingDatePlaceholder": "DD/MM/YY",
+    "harvestDatePlaceholder": "DD/MM/YY",
+    "soilTypePlaceholder": "Tipo de suelo",
+    "sunlightPlaceholder": "Luz solar",
+    "wateringPlaceholder": "Frecuencia de riego",
+    "cancel": "Cancelar",
+    "save": "Guardar"
+  },
+  "fields": {
+    "title": "Mis campos",
+    "description": "¡ Administra tus campos en esta sección !"
+  },
+  "field_detail": {
+    "location": "Localización: ",
+    "field_size": "Tamaño del campo: ",
+    "crop": "Cultivo: ",
+    "days_since": "Dias desde el plantado: ",
+    "planting_date": "Fecha de plantado: ",
+    "expected": "Fecha esperada de cosecha: ",
+    "soil_type": "Tipo de suelo: ",
+    "watering": "Regado: ",
+    "sunlight": "Luz del sol: ",
+    "progress": {
+      "title": "Progreso e Historia",
+      "watered": "Regado el: ",
+      "fertilized": "Fertilziado el: ",
+      "pest": "Inspecion de pestes el:"
+    },
+    "tasks": "Mis Tareas"
+  },
+  "new_field": {
+    "title": "Nuevo Campo",
+    "description": "¡Añade un nuevo campo a tu lista!",
+    "image": "Click para subir su imagen",
+    "name": "Nombre del campo",
+    "location": "Localizacion del campo",
+    "size": "Tamaño del campo",
+    "cancel": "Cancelar",
+    "save": "Subir",
+    "saving": "Subiendo"
+  },
+  "modifications": {
+    "progress": "Editar Progreso e Historia",
+    "new_task": "Añadir Nueva Tarea",
+    "date": "Fecha Limite",
+    "description": "Descripcion de la Tarea"
+  },
+  "task":{
+    "description": "Descripcion",
+    "origin": "Organiza tus tareas diarias. Marcalas como completadas"
+  },
+  "community": {
+    "title": "Lo que dice nuestra comunidad",
+    "description": "Retroalimentacion de nuestros usuarios que se unieron al flujo de la aplicacion. Unete a miles de uusarios satisfechos en todo el mundo",
+    "quantity": "Comentarios",
+    "actions": {
+      "addComment": "Agregar comentario",
+      "newComment": "Nuevo comentario",
+      "editComment": "Editar comentario",
+      "commentLabel": "Comentario",
+      "commentPlaceholder": "Escribe tu comentario...",
+      "commentRequired": "El comentario es requerido",
+      "cancel": "Cancelar",
+      "update": "Actualizar",
+      "post": "Publicar"
+    },
+    "toasts": {
+      "updated": "Comentario actualizado",
+      "posted": "Comentario publicado",
+      "error": "Error"
+    }
+  },
+  "myTasks": {
+    "title": "Mis Tareas",
+    "total": "Total de Tareas",
+    "empty": "No se encontraron tareas.",
+    "toasts": {
+      "updated": "Tarea actualizada correctamente.",
+      "created": "Tarea creada.",
+      "saveError": "No se pudo guardar la tarea.",
+      "success": "Éxito",
+      "error": "Error"
+    }
+  },
+  "iam": {
+    "login": {
+      "title": "Iniciar sesión",
+      "email": "Email",
+      "emailPlaceholder": "ejemplo{'@'}correo.com",
+      "password": "Contraseña",
+      "submit": "Iniciar sesión",
+      "loading": "Cargando...",
+      "noAccount": "¿No tienes cuenta?",
+      "goRegister": "Regístrate"
+    },
+    "register": {
+      "title": "Crear cuenta",
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Juan Perez",
+      "dni": "DNI (8 dígitos)",
+      "dniPlaceholder": "12345678",
+      "phone": "Teléfono (con código de país)",
+      "phonePlaceholder": "+51999999999",
+      "email": "Email",
+      "emailPlaceholder": "ejemplo{'@'}correo.com",
+      "password": "Contraseña",
+      "role": "Rol de Agricultor",
+      "rolePlaceholder": "Selecciona tu rol",
+      "roles": {
+        "expert": "Agricultor Experto",
+        "novice": "Agricultor Novato"
+      },
+      "submit": "Crear cuenta",
+      "loading": "Registrando...",
+      "haveAccount": "¿Ya tienes cuenta?",
+      "goLogin": "Inicia sesión",
+      "success": "¡Cuenta creada con éxito! Redirigiendo al login..."
+    }
+  },
+  "roles": {
+    "0": "Sin Asignar",
+    "1": "Agricultor Experto",
+    "2": "Agricultor Novato"
+  }
+}

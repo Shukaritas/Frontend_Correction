@@ -1,0 +1,278 @@
+{
+  "dashboard": {
+    "addNewCrop": "Add New Crop",
+    "view_tasks": "View Tasks",
+    "crop_name": "Crop name",
+    "task": "Task",
+    "due_date": "Due Date",
+    "actions": "Actions",
+    "recommendatios": "Lastest Recommendations",
+    "empty": "No content yet",
+    "emptySections": {
+      "fields": "You have no fields yet",
+      "tasks": "No upcoming tasks",
+      "recommendations": "No recommendations yet"
+    },
+    "errors": {
+      "unauthenticated": "User not authenticated",
+      "loadFailed": "Error loading dashboard data"
+    },
+    "noviceRecommendations": {
+      "title": "Getting Started Guide",
+      "rec1": { "title": "Basic Watering", "content": "Water your plants early in the morning to prevent evaporation and ensure optimal absorption." },
+      "rec2": { "title": "Visual Identification", "content": "Learn to recognize yellow or wilted leaves as early signs of watering or nutrient problems." },
+      "rec3": { "title": "Simple Calendar", "content": "Keep a basic record of planting and harvest dates to better plan your activities." }
+    },
+    "expertRecommendations": {
+      "title": "Expert Tips",
+      "rec1": { "title": "Soil pH Analysis", "content": "Perform periodic pH tests and adjust with lime or sulfur amendments according to specific crop requirements." },
+      "rec2": { "title": "Advanced Crop Rotation", "content": "Implement a four-year rotation system that includes legumes to fix nitrogen and improve soil structure." },
+      "rec3": { "title": "Integrated Pest Management", "content": "Use pheromone traps and biological control with natural enemies to reduce reliance on chemical pesticides." }
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "manageCrops": "Manage Crops",
+    "myFields": "My Fields",
+    "myTasks": "My Tasks",
+    "community": "Community",
+    "myLocation": "My Location",
+    "location": {
+      "loading": "Loading...",
+      "anonymous": "Anonymous Location",
+      "unknown": "Unknown location"
+    }
+  },
+  "header": {
+    "profile": "Profile",
+    "logout": "Log Out"
+  },
+  "profile": {
+    "title": "My Profile",
+    "personalInfo": "Personal Information",
+    "changePassword": "Change Password",
+    "settings": "Settings",
+    "name": "Name",
+    "email": "E-mail",
+    "phoneNumber": "Phone Number",
+    "identityDocument": "Identity Document",
+    "role": "Farmer Role",
+    "editInfo": "Edit Information",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "notifications": "Notifications",
+    "location": "Location",
+    "logout": "Log Out",
+    "deleteAccount": "Delete Account",
+    "deleteConfirmHeader": "Deletion Confirmation",
+    "deleteConfirmMessage": "Are you sure you want to delete your account? This action is irreversible.",
+    "deleteAccept": "Yes, delete",
+    "deleteReject": "No, cancel"
+  },
+  "toast": {
+    "profileUpdated": "Profile updated.",
+    "passwordChanged": "Password changed.",
+    "logoutSuccess": "You have logged out successfully.",
+    "accountDeleted": "Account deleted.",
+    "errorProfileUpdate": "Could not update profile.",
+    "errorPasswordChange": "Could not change password.",
+    "errorDeleteAccount": "Could not delete account."
+  },
+  "errors": {
+    "nameLength": "Name must be at least 3 characters long.",
+    "phoneDigits": "Phone number must have 9 digits.",
+    "documentDigits": "Document must have 8 digits.",
+    "requiredCurrentPass": "Current password is required.",
+    "newPassLength": "New password must be at least 8 characters.",
+    "passwordsDontMatch": "Passwords do not match."
+  },
+  "manageCrops": {
+    "title": "Manage Crops",
+    "description": "Manage your crops, add new records and keep track of the current status of your plantations.",
+    "totalCrops": "Total Crops",
+    "healthy": "Healthy",
+    "attention": "Attention",
+    "critical": "Critical",
+    "crop": "Crop",
+    "plantingDate": "Planting Date",
+    "harvestDate": "Harvest Date",
+    "field": "Field",
+    "status": "Status",
+    "days": "Days",
+    "actions": "Actions",
+    "newCrop": "New Crop",
+    "editCrop": "Edit Crop",
+    "deleteCrop": "Delete Crop",
+    "confirmDelete": "Confirm",
+    "confirmDeleteMessage": "Are you sure you want to delete the crop",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "create": "Create",
+    "update": "Update",
+    "cropName": "Crop",
+    "cropNamePlaceholder": "E.g: Wheat, Corn, Tomato...",
+    "plantingDatePlaceholder": "DD/MM",
+    "harvestDatePlaceholder": "DD/MM",
+    "fieldPlaceholder": "Field name",
+    "daysPlaceholder": "E.g: 31",
+    "selectStatus": "Select status",
+    "statusHealthy": "Healthy",
+    "statusAttention": "Attention",
+    "statusCritical": "Critical",
+    "loadingCrops": "Loading crops...",
+    "retry": "Retry",
+    "cropCreated": "Crop created successfully",
+    "cropUpdated": "Crop updated successfully",
+    "cropDeleted": "Crop deleted successfully",
+    "errorCreateCrop": "Could not create crop",
+    "errorUpdateCrop": "Could not update crop",
+    "errorDeleteCrop": "Could not delete crop",
+    "errorLoadCrops": "Could not load crops",
+    "pagination": "Showing {first} to {last} of {totalRecords} crops",
+    "validation": {
+      "cropNameRequired": "Crop name is required",
+      "plantingDateRequired": "Planting date is required",
+      "harvestDateRequired": "Harvest date is required",
+      "fieldRequired": "Field is required",
+      "statusRequired": "Status is required",
+      "daysRequired": "Days are required"
+    },
+    "tooltip": {
+      "edit": "Edit crop",
+      "delete": "Delete crop"
+    }
+  },
+  "registerCrop": {
+    "title": "Register a Crop",
+    "subtitle": "Add new crop",
+    "cropInformation": "Crop information",
+    "chooseField": "Choose your field",
+    "cropTypePlaceholder": "Crop type / species",
+    "plantingDatePlaceholder": "DD/MM/YY",
+    "harvestDatePlaceholder": "DD/MM/YY",
+    "soilTypePlaceholder": "Soil Type",
+    "sunlightPlaceholder": "Sunlight",
+    "wateringPlaceholder": "Watering frequency",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "fields": {
+    "title": "My fields",
+    "description": "Manage your fields in this section!"
+  },
+  "field_detail": {
+    "location": "Location: ",
+    "field_size": "Field Size: ",
+    "crop": "Crop: ",
+    "days_since": "Days since planting: ",
+    "planting_date": "Planting Date: ",
+    "expected": "Expected Harvest Date: ",
+    "soil_type": "Soil Type: ",
+    "watering": "Watering: ",
+    "sunlight": "Sunlight: ",
+    "progress": {
+      "title": "Progress & History",
+      "watered": "Watered: ",
+      "fertilized": "Fertilized: ",
+      "pest": "Pest Inspection: "
+    },
+    "tasks": "My Tasks"
+  },
+  "new_field": {
+    "title": "New Field",
+    "description": "Add a new field to your list!",
+    "image": "Click to upload image",
+    "name": "Field Name",
+    "location": "Location",
+    "size": "Field Size",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving"
+  },
+  "modifications": {
+    "progress": "Edit Progress & History",
+    "new_task": "Add New Task",
+    "date": "Due Date",
+    "description": "Task Description"
+  },
+  "task":{
+    "description": "Description",
+    "origin": "Organize your daily tasks. Mark completed tasks."
+  },
+  "community": {
+    "title": "What Our Community Says",
+    "description": "Real feedback from real users who have transformed their workflow with our application. Join thousands of satisfied customers worldwide.",
+    "quantity": "Comments",
+    "actions": {
+      "addComment": "Add Comment",
+      "newComment": "New Comment",
+      "editComment": "Edit Comment",
+      "commentLabel": "Comment",
+      "commentPlaceholder": "Write your comment...",
+      "commentRequired": "Comment is required",
+      "cancel": "Cancel",
+      "update": "Update",
+      "post": "Post"
+    },
+    "toasts": {
+      "updated": "Comment updated",
+      "posted": "Comment posted",
+      "error": "Error"
+    }
+  },
+  "myTasks": {
+    "title": "My Tasks",
+    "total": "Total Tasks",
+    "empty": "No tasks found.",
+    "toasts": {
+      "updated": "Task updated successfully.",
+      "created": "Task created.",
+      "saveError": "Could not save the task.",
+      "success": "Success",
+      "error": "Error"
+    }
+  },
+  "iam": {
+    "login": {
+      "title": "Sign in",
+      "email": "Email",
+      "emailPlaceholder": "example{'@'}mail.com",
+      "password": "Password",
+      "submit": "Sign in",
+      "loading": "Loading...",
+      "noAccount": "Don't have an account?",
+      "goRegister": "Register"
+    },
+    "register": {
+      "title": "Create account",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "dni": "ID (8 digits)",
+      "dniPlaceholder": "12345678",
+      "phone": "Phone (with country code)",
+      "phonePlaceholder": "+19999999999",
+      "email": "Email",
+      "emailPlaceholder": "example{'@'}mail.com",
+      "password": "Password",
+      "role": "Farmer Role",
+      "rolePlaceholder": "Select your role",
+      "roles": {
+        "expert": "Expert Farmer",
+        "novice": "Novice Farmer"
+      },
+      "submit": "Create account",
+      "loading": "Registering...",
+      "haveAccount": "Already have an account?",
+      "goLogin": "Sign in",
+      "success": "Account created successfully! Redirecting to login..."
+    }
+  },
+  "roles": {
+    "0": "Unassigned",
+    "1": "Expert Farmer",
+    "2": "Novice Farmer"
+  }
+}
