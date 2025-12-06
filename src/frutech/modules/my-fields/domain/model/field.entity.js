@@ -53,10 +53,10 @@ export class Field {
 
   validateStatus(status) {
     const validStatuses = ['Healthy', 'Attention', 'Critical'];
-    if (!status || typeof status !== 'string') {
-      return 'Healthy';
+    if (!status || typeof status !== 'string' || status.trim() === '') {
+      return 'Disponible';
     }
-    return validStatuses.includes(status) ? status : 'Healthy';
+    return validStatuses.includes(status) ? status : 'Disponible';
   }
 
   isHealthy() {

@@ -138,6 +138,11 @@ export class FieldAssembler {
         })
       : [];
 
+    const rawStatus = resource.cropStatus || resource.crop_status || resource.status || resource.Status;
+    const validatedStatus = (rawStatus && typeof rawStatus === 'string' && rawStatus.trim() !== '')
+      ? rawStatus
+      : 'Disponible';
+
     return new FieldDetail({
       id: resource.id ?? resource.Id,
       name: resource.name ?? resource.Name,
@@ -145,7 +150,7 @@ export class FieldAssembler {
       fieldSize: resource.fieldSize ?? resource.field_size ?? resource.FieldSize,
       field_size: resource.fieldSize ?? resource.field_size ?? resource.FieldSize,
       imageUrl: imageUrl,
-      status: resource.cropStatus ?? resource.crop_status ?? resource.status ?? resource.Status ?? 'Healthy',
+      status: validatedStatus,
       crop: cropName,
       cropName: cropName,
       product: product,
